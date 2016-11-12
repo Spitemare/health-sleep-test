@@ -16,7 +16,7 @@
       "diorite"
     ],
     "watchapp": {
-      "watchface": true
+      "watchface": false
     },
     "messageKeys": [
     ],
