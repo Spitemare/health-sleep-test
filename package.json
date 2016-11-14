@@ -2,9 +2,13 @@
   "name": "health-sleep-test",
   "author": "MakeAwesomeHappen",
   "version": "1.0.0",
-  "keywords": ["pebble-app"],
+  "keywords": [
+    "pebble-app"
+  ],
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "pebble-console-layer": "^2.1.6"
+  },
   "pebble": {
     "displayName": "health-sleep-test",
     "uuid": "da0006e7-71a8-49d5-a126-f47c61945ba5",
@@ -12,16 +16,14 @@
     "enableMultiJS": true,
     "targetPlatforms": [
       "basalt",
-      "chalk",
-      "diorite"
+      "chalk"
     ],
     "watchapp": {
       "watchface": false
     },
-    "messageKeys": [
-    ],
+    "messageKeys": [],
     "capabilities": [
-        "health"
+      "health"
     ],
     "resources": {
       "media": []
